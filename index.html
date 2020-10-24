@@ -7,42 +7,46 @@
 <body>
 
 	<!--Top Bar-->
-	<!--Left-->
+	
 	<div>
-		<span>
-			<a class="top-text" href=https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header>About</a>
-			<a class="top-text" href = https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB>Store</a>
-		</span>
-	<!--Right-->
-		<span id="top-right">
-			<a class="top-text" href = https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox>Gmail</a>
-			<a class="top-text" href = https://www.google.co.uk/imghp?hl=en&tab=wi&ogbl>Images</a>
-		</span>
+		<ul>
+			<!--Left-->
+			<li><a class="top-text" href=https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header>About</a></li>
+			<li><a class="top-text" href = https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB>Store</a></li>
+			<!--Right-->
+			<li style="float:right"><a class="top-text" href = https://www.google.co.uk/imghp?hl=en&tab=wi&ogbl>Images</a></li>
+			<li style="float:right"><a class="top-text" href = https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox>Gmail</a></li>
+			
+		</ul>
+
 	</div>
+	
 	<!--Main Body-->
 	<div>
 		<!--Google Image-->
 		<div>
-			<img alt = "Google" src = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" height = 92 width  = 272>
+			<img alt = "Google" class = "image-padding" src = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" height = 92 width  = 272>
 		</div>
 		<div>
-			<input title = "Search">
+			<input class="searchbar" title = "Search">
 		</div>
-		<div>
-			<input type = "submit" value = "Google Search" class="button">
-			<input type = "submit" value = "I'm Feeling Lucky" class="button">
+		<div class="buttonrow">
+			<input type = "submit" value = "Google Search" class="button buttonrow">
+			<input type = "submit" value = "I'm Feeling Lucky" class="button buttonrow">
 		</div>
 	</div>
 
 	<!--Bottom Bar-->
-	<div>
+	<div class="footer">
 		<div>
 			<p class="bottom-text">United Kingdom</p>
 		</div>
-			<a class="bottom-text" href = "https://policies.google.com/privacy?hl=en-GB&fg=1">Privacy</a>
-			<a class="bottom-text" href = "https://policies.google.com/terms?hl=en-GB&fg=1">Terms</a>
-			<a class="bottom-text" href = "https://www.google.com/preferences?hl=en">Settings</a> 
-		<div>
+		<div class="bottomcentre">
+			<a  class="bottom-text" href = "https://policies.google.com/privacy?hl=en-GB&fg=1">Privacy</a>
+			<a  class="bottom-text" href = "https://policies.google.com/terms?hl=en-GB&fg=1">Terms</a>
+			<a  class="bottom-text" href = "https://www.google.com/preferences?hl=en">Settings</a>
+		</div> 
+		<div class="bottomcentre">
 			<a class="bottom-text" href = "https://ads.google.com/intl/en_uk/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
 			<a class="bottom-text" href = "https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
 			<a class="bottom-text" href = "https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>

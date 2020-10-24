@@ -7,10 +7,20 @@
 
 }
 
-#top-left{
-  position: absolute;
+#bottom-row{
+
+	
+}
+
+.footer {
+  position: fixed;
   left: 0;
-  width: 200px;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  
+}
+
 
 .top-text{
 	color:#000000;
@@ -23,28 +33,90 @@
 	color:#0000008A;
 	font-family: arial, sans-serif;
 	font-size: 15px;
-	padding-left:15px;
+	padding:15px 20px 15px 20px;
+	margin:15px;
+
+
+
+
 }
 
 .button{
 	background-color: rgb(242,242,242);
-	color:rgb(95,99,104);
+	color:#0000008A;
 	font-family: arial, sans-serif;
 	font-size: 13px;
 	padding:0px 16px 0px 16px;
-	border-color: rgb(242,242,242);
+	border-color: #FFFFFF;
 	border-width:1px;
 	margin: 11px 4px 11px 4px;
 	border-radius: 4px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	
+	height:34px;
 }
 
 .button:hover{
+	border-width: 1px;
+	border-color: #ababab;
 	color: #000000;
-	border-color: #000000;
 }
+
+.buttonrow{
+	text-align: center;
+}
+
+.bottomcentre{
+	text-align: center;
+	margin:15px 0px 15px 0px;
+
+
+}
+
+.image-padding{
+	padding-top:109px;
+	margin: 10px auto 20px;
+	display: block;
+}
+
+.searchbar{
+	margin: 37px auto 20px;
+	display: block;
+	border-radius: 4px;
+	border-color: #FFFFFF;
+	border-width:0px;
+	width: 384px;
+	height: 34px;
+	box-shadow: 0px;
+
+}
+
+.searchbar:hover{
+	border-color: #d4d4d4;
+	border-bottom-width: 1px;
+}
+
 
 
 a{
 	cursor: pointer;
 	text-decoration: none;
 }
+
+a:hover{
+	text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+
