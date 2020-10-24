@@ -1,0 +1,36 @@
+.top-text{
+	color:#000000;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	padding-left:15px;
+}
+
+.bottom-text{
+	color:#0000008A;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	padding-left:15px;
+}
+
+.button{
+	background-color: rgb(242,242,242);
+	color:rgb(95,99,104);
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	padding:0px 16px 0px 16px;
+	border-color: rgb(242,242,242);
+	border-width:1px;
+	margin: 11px 4px 11px 4px;
+	border-radius: 4px;
+}
+
+.button:hover{
+	color: #000000;
+	border-color: #000000;
+}
+
+
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
